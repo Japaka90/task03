@@ -40,6 +40,20 @@ i {
     color: #279cd9;
 }
 
+.contacts:before {
+    content: url(../pictures/bug_line.png);
+    display: block;
+    text-align: center;    
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+
+.contacts img {
+    width: 25px;
+    margin-left: -20px;
+    margin-right: 5px;
+}
+
 
 .work_experience h3 {
     font-size: 20px;
@@ -57,6 +71,11 @@ i {
     font-size: 16px;    
     text-transform: none;
 }
+
+.work_experience ul li:last-child h3 {
+    color: #a1ce50
+}
+
 
 
 .skills {
@@ -85,6 +104,7 @@ i {
     font-weight: lighter;
     padding-left: 10px;
     font-weight: 200;
+    
 }
 
 .circle span {
@@ -108,6 +128,138 @@ i {
     display: inline-block;    
 }
 
+.underline:after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    border-bottom: solid 2px #88909d;
+}
+
+.instruments,
+.last_projects,
+.interests{
+    margin-top: 12vh;
+}
+
+.instruments_item ul{
+    list-style-type: none;
+    margin-left: -50px;
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.instruments_item li {    
+    text-transform: uppercase;
+    color: white;
+    background-color: #ececec;
+    border-radius: 5px;
+    margin-bottom: 2vh; 
+    width: 100%;
+}
+
+.instruments_item div{
+    padding: 5px 0 5px 15px;
+}
+
+.instruments_item_photoshop {
+    background-color: #1ba0e1;
+    width: 90%;
+    border-radius: 5px;
+}
+
+.instruments_item_illustrator {
+    background-color: #8cbf26;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.instruments_item_indesign {
+    background-color: #b664e6;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.instruments_item_sketch {
+    background-color: #25b9b8;
+    width: 15%;
+    border-radius: 5px;
+}
+
+.instruments_item_axure {
+    background-color: #f09709;
+    width: 50%;
+    border-radius: 5px;
+}
+
+
+table {    
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    width: 100%;
+    border-collapse: separate;      
+    border-spacing: 5px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+}
+    
+caption {
+    margin-top: 0;
+}
+
+.rigth_side_table {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-bottom: 14px;
+}
+
+.projects,
+.my_interests{
+    margin-top: 55px;
+}
+
+.interests img{
+    margin-top: 2vh;  
+    width: 99%
+}
+
+.interests_items {
+    display: inline-block;
+} 
+
+footer {
+    margin-top: 15vh;  
+    text-align: center;
+}
+
+footer p {
+    font-style: italic;
+    font-family: 'Monotype Corsiva' cursive;
+    font-size: 18px;
+    color: #88909d;
+    position: relative
+}
+
+footer p:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 0px;    
+    border-bottom: solid 1px #88909d;
+    position: absolute;
+    text-align: center;
+    left: 46%
+}
+    
+
+footer img {
+    margin-top: 5vh;
+    width: 15%
+}
 
 
 
