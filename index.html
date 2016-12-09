@@ -4,57 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task 3</title>
-    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/cynthopro/cynthopro.css">
+
     <link rel="stylesheet" href="styles/style.css">
     
 </head>
-<body>
-   <header class="container">
+<body  class="container">
+   <header>
       <div class="row">
-       <div class="img_logo col-xs-2">
+       <div class="img_logo col-md-2">
               <img src="pictures/me.png" alt="photo">
           </div> 
-       <section class="col-xs-5">                    
-          <div>
+       <section class="col-md-5">                    
+          <div class="about_me">
                <h2>Обо мне</h2>
-               <p>Привет! меня зовут Иван Белобородов. Я родился и вырос в Ижевске, столице Удмуртской Республики. Последние несколько лет занимаюсь проектированием и дизайном мобильных приложений на базе IOS и Android. В данный момент живу в Москве и ищу постоянное место работы.</p>
+               <p>Привет! Меня зовут Иван Белобородов. Я родился и вырос в Ижевске, столице Удмуртской Республики. Последние несколько лет занимаюсь проектированием и дизайном мобильных приложений на базе iOS и Android. В данный момент живу в Москве и ищу постоянное место работы.</p>
                <p>Испытываю страсть к девайсам, имеющим touch-интерфейс, классическим мотоциклам, немецкому пиву, английской музыке и французскому кино.</p>
           </div>
-          <div>
-              <img src="pictures/anchor.png" alt=""><p>beliv.net</p>
-              <img src="pictures/f.png" alt=""><p>ivan.beloborodov</p>
-              <img src="pictures/twit.png" alt=""><p>@beliv</p>
-              <img src="pictures/plannet.png" alt=""><p>dribbble.com/beliv</p>
-              <img src="pictures/R.png" alt=""><p>revision.ru/a/beliv/</p>
+          <div class="contacts">
+              <i class="fa fa-anchor" aria-hidden="true"></i>
+              <p>beliv.net</p>
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <p>ivan.beloborodov</p>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <p>@beliv</p>
+              <i class="fa fa-dribbble" aria-hidden="true"></i>
+              <p>dribbble.com/beliv</p>
+              <i></i>
+              <p>revision.ru/a/beliv/</p>
           </div>          
        </section>
-       <section class="col-xs-5">
+       <section class="work_experience col-md-5">
            <h2>Опыт работы</h2>
            <ul>
                <li>
                    <h3>Центр Высоких Технологий</h3>
-                   <h4>UX Дизайнер</h4>
-                   <p>январь 2011- июль 2013</p>
+                   <p><span>UX Дизайнер</span> 
+                   <br> январь 2011- июль 2013</p>
                </li>
                <li>
                    <h3>ООО "БИТ-Мастер"</h3>
-                   <h4>Дизайнер мобильных интерфейсов</h4>
-                   <p>август 2012 - июнь 2013 (внештатно)</p>
+                   <p><span>Дизайнер мобильных интерфейсов</span>
+                   <br> август 2012 - июнь 2013 (внештатно)</p>
                </li>
                <li>
                    <h3>Fastdev</h3>
-                   <h4>Дизайнер мобильных интерфейсов</h4>
-                   <p>апрель 2012 - июнь 2013 (внештатно)</p>
+                   <p><span>Дизайнер мобильных интерфейсов</span> 
+                   <br> апрель 2012 - июнь 2013 (внештатно)</p>
                </li>
                <li>
                    <h3>ООО "Танго Телеком"</h3>
-                   <h4>Дизайнер веб и мобильных интерфейсов</h4>
-                   <p>сентябрь 2010 - январь 2011 (внештатно)</p>
+                   <p><span>Дизайнер веб и мобильных интерфейсов</span>
+                   <br> сентябрь 2010 - январь 2011 (внештатно)</p>
                </li>
                <li>
                    <h3>Фрилансер</h3>
-                   <h4>Веб-дизайнер</h4>
-                   <p>март 2009 - январь 2011</p>
+                   <p><span>Веб-дизайнер</span> 
+                   <br> март 2009 - январь 2011</p>
                </li>
            </ul>
        </section>   
@@ -62,54 +70,57 @@
     </header>
     
     <main>
-        <section>
+        <section class="skills row">
            <h2>Навыки</h2>
-            <div>
+            <div class="skills_item col-md-4">
                 <p>User Experience</p>
                 <p>с 2010 года</p>
-            </div>
-            <div>
+                <div class="circle">
+                    <p>55<span>%</span></p> 
+                </div>
+            </div>        
+            <div class="skills_item col-md-4">
                 <p>Дизайн мобильных интерфейсов</p>
                 <p>с 2011 года</p>
+                <div class="circle">
+                    <p>80<span>%</span></p>
+                </div>
             </div>
-            <div>
+            <div class="skills_item col-md-4">
                 <p>Веб-интерфейсы</p>
                 <p>с 2010 года</p>
+                <div class="circle">
+                    <p>60<span>%</span></p>
+                </div>
             </div>
         </section>
         
-        <section>
-            <div>
-                <h3>55%</h3>
-                <h3>80%</h3>
-                <h3>60%</h3>
-            </div>
-        </section>
-        
-        <section>
-            <div>
+            
+        <section class="more_skills row">
+            <div class="more_skills_item col-md-3">
                 <p>Базовые знания HTML &amp CSS</p>
             </div>
-            <div>
+            <div class="more_skills_item col-md-3">
                 <p>Клубный фотограф</p>
             </div>
-            <div>
+            <div class="more_skills_item col-md-3">
                 <p>Интерфейсы для Smart TV</p>
             </div>
-            <div>
+            <div class="more_skills_item col-md-3">
                 <p>7 проектов в сфере такси за 3 года</p>
             </div>
         </section>
         
         <section>
             <h3>Инструменты</h3>
-            <div>
+            <div class="col-md-7">
                 <p>Photoshop</p>
                 <p>Illustrator</p>
                 <p>Indesign</p>
                 <p>Sketch</p>
                 <p>Axure</p>
             </div>
+            <div class="col-md-5">
             <table>
                 <caption>Активность</caption>
                 <tbody>
@@ -139,27 +150,28 @@
                     </tr>
                 </tbody>
             </table>
+            </div>
         </section>
         
         <section>
            <h3>Последние проекты</h3>
-           <div>
-                <div>
+           <div class="projects row">
+                <div class="projects_item col-md-3">
                     <p>TaxiCaller</p>
                     <p>декабрь 2012 - март 2013</p>
                     <img src="pictures/TaxiCaller.png" alt="">
                 </div>
-                <div>
+                <div class="projects_item col-md-3">
                     <p>Check,please!</p>
                     <p>май 2013 - ...</p>
                     <img src="pictures/Check.png" alt="">
                 </div>
-                <div>
+                <div class="projects_item col-md-3">
                     <p>Izhevsk</p>
                     <p>ноябрь 2012 - февраль 2013</p>
                     <img src="pictures/Izhevsk.png" alt="">
                 </div>
-                <div>
+                <div class="projects_item col-md-3">
                     <p>RP.com</p>
                     <p>июнь 2012 - март 2013</p>
                     <img src="pictures/RP.png" alt="">
@@ -169,20 +181,20 @@
         
         <section>
           <h3>Интересы</h3>
-           <div>
-                <figure>
+           <div class="row">
+                <figure class="col-md-3">
                     <figcaption>Музыка</figcaption>
                     <img src="pictures/music.png" alt="">
                 </figure>
-                <figure>
+                <figure class="col-md-3">
                     <figcaption>Мотоциклы</figcaption>
                     <img src="pictures/moto.png" alt="">
                 </figure>
-                <figure>
+                <figure class="col-md-3">
                     <figcaption>Кулинария</figcaption>
                     <img src="pictures/cook.png" alt="">
                 </figure>
-                <figure>
+                <figure class="col-md-3">
                     <figcaption>Велоспорт</figcaption>
                     <img src="pictures/bike.png" alt="">
                 </figure>

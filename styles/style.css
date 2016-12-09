@@ -1,8 +1,113 @@
+body {
+    color: #88909d;
+    font-family: 'Cyntho Pro' serif;    
+    margin-top: 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-stretch: condensed;
+    font-size: 20px;
+}
 
 .img_logo {
     padding: 10px;
 }
 
 .img_logo img {
-    max-width: 90%;
+    max-width: 115%;
 }
+
+.about_me {
+    max-width: 90%;    
+}
+
+/* ????????? отступ перед первым абзацем
+.about_me > p:first-child {
+    margin-top: 15px;   
+}
+*/
+
+
+i {
+    color: #b0b7c3;
+    float:left;
+    padding-right: 15px;
+    padding-top: 4px;   
+}
+
+.contacts p {
+    color: #279cd9;
+}
+
+
+.work_experience h3 {
+    font-size: 20px;
+    font-stretch: condensed;
+    font-weight: bold;
+    color: #419ecd;
+}
+
+.work_experience p {
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.work_experience span {
+    font-size: 16px;    
+    text-transform: none;
+}
+
+
+.skills {
+    margin-top: 5vw;
+}
+
+.skills_item,
+.projects_item {
+    display: inline-block;
+    text-align: center
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    text-align: center;
+    border: 6px solid #ececec;
+    line-height: 175px;   
+    margin: auto;
+}
+
+.circle p {
+    text-align: center;
+    font-size: 65px;    
+    font-weight: lighter;
+    padding-left: 10px;
+    font-weight: 200;
+}
+
+.circle span {
+    font-size: 25px;  
+    vertical-align: super;
+}
+
+.more_skills {
+    margin-top: 3vw;    
+}
+
+.more_skills_item {
+    text-align: center;
+}
+
+.more_skills p:before {
+    content: ' \25CF';
+    color: #ececec;
+    padding-right: 6px;   
+    margin-right: 5px;
+    display: inline-block;    
+}
+
+
+
+
