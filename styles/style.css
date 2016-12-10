@@ -76,6 +76,45 @@ i {
     color: #a1ce50
 }
 
+.work_experience ul {
+    list-style-type: none;
+}
+
+.work_experience ul li:last-child h3:before {
+    content: '\29BF';
+    margin-left: -30px;
+    margin-right: 10px;    
+}
+
+ .strip:before {
+    content: "";
+    width: 6px;
+    height: 99px;
+    background-color: #3d9ccc;
+    border-radius: 2px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    position: relative;
+    top: 20px;
+    left: -22px;
+    float: left;
+    box-shadow: 0 0 4px -1px gray;
+}
+
+
+.dot:after {
+    display: block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    position: relative;
+    top: -75px;
+    left: -27px;
+    z-index: -1;
+    border: solid 1px LightGray;
+}
+
 
 
 .skills {
@@ -96,6 +135,7 @@ i {
     border: 6px solid #ececec;
     line-height: 175px;   
     margin: auto;
+    margin-top: 40px;
 }
 
 .circle p {
@@ -260,7 +300,6 @@ footer img {
     margin-top: 5vh;
     width: 15%
 }
-
 
 
 
