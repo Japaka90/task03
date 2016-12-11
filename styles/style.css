@@ -127,30 +127,81 @@ i {
     text-align: center
 }
 
-.circle {
-    height: 200px;
+.circle_container {
     width: 200px;
-    border-radius: 100px;
-    text-align: center;
-    border: 6px solid #ececec;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    background: #ececec;
+    z-index: -2;
     line-height: 175px;   
     margin: auto;
     margin-top: 40px;
 }
+.sector, .sector2, .sector3, .sector4 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform-origin: left bottom;
+    background: #419ecd;
+    text-align: center
+}
 
-.circle p {
+.sector2 {
+    transform: rotate(89deg);
+}
+
+.sector3 {
+    transform: rotate(110deg);
+}
+
+.for60 {
+    transform: rotate(115deg);
+}
+
+.for80 {
+    transform: rotate(198deg);
+}
+
+.empty {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    position: absolute;
+    background: white;
+    top: 5px;
+    left: 5px;
+    text-align: center;
+}
+
+.empty p {
+    z-index: 20;
     text-align: center;
     font-size: 65px;    
     font-weight: lighter;
     padding-left: 10px;
     font-weight: 200;
-    
 }
 
-.circle span {
+.empty span {
     font-size: 25px;  
     vertical-align: super;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .more_skills {
     margin-top: 3vw;    
@@ -300,6 +351,8 @@ footer img {
     margin-top: 5vh;
     width: 15%
 }
+
+
 
 
 
