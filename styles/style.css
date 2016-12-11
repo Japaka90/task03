@@ -115,7 +115,17 @@ i {
     border: solid 1px LightGray;
 }
 
-
+.disk {
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	margin: 27px 0px 0 -23.5px;
+	border-radius: 50%;
+	background: #3d9ccc;
+    } 
+.disk:first-child {
+    margin-top: 7px;
+}
 
 .skills {
     margin-top: 5vw;
@@ -190,18 +200,6 @@ i {
     font-size: 25px;  
     vertical-align: super;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .more_skills {
     margin-top: 3vw;    
